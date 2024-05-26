@@ -18,7 +18,7 @@ const tipoProyectos = require('./routes/tipoProyecto');;
 const clientes = require('./routes/cliente');
 const universidades = require('./routes/universidad');
 const etapas = require('./routes/etapas');
-const proyectos = require('./routes/proyecto');
+
 // const marca = require('./routes/marca');
 // const inventario = require('./routes/inventario');
 
@@ -27,7 +27,7 @@ app.use('/api/tiposproyectos', tipoProyectos);
 app.use('/api/clientes', clientes);
 app.use('/api/universidades', universidades);
 app.use('/api/etapas', etapas);
-app.use('/api/proyectos', proyectos);
+
 
 
 
